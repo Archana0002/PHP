@@ -1,0 +1,40 @@
+<?php
+$arr=array(12,13,15);
+
+$h=count($arr);
+
+for($i=0;$i<$h;$i++)
+{
+    echo $arr[$i],"<br>";
+}
+?>
+
+
+
+<?php
+   $S=array("S1MCA"=>"60","S3MCA"=>"30");
+   echo $S["S1MCA"];
+?>
+
+
+
+
+<?php
+$arr=array(12,13,14);
+foreach($arr as $v)
+   echo $v,"<br>";
+?>
+
+
+
+<?php
+$s=array("S1MCA"=>"60" , "S3MCA"=>"30");
+foreach($s as $x=>$v)
+{
+  echo "<br>",$x,"=",$v;
+  echo "<br>","keys =",$x;
+  echo "<br>","values =" , $v;
+}
+?>
+
+
