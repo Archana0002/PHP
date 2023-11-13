@@ -45,5 +45,15 @@ if(isset($_POST["btn"]))
   
 }
 ?>
+
+<html>
+ <head>
+  <body>
+   <h1>
+    HELLO
+   </h1>
+  </body>
+ </head>
+</html>
   
   
